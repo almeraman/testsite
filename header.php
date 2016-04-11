@@ -1,8 +1,8 @@
 <?php 
 $host = "mysql4.000webhost.com";
-$username = "a7882179_dave";
-$password = "webhost";
-$dbname = "a7882179_tester";
+$username = "a7882179_david";
+$password = "almeraman27";
+$dbname = "a7882179_test";
 
 $conn = new MySQLi($host,$username,$password,$dbname);
 if($conn->connect_error){
